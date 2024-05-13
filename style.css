@@ -1,0 +1,56 @@
+body{
+    background-color: #CAF4FF;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-family: 'Press Start 2P';
+    font-size: 5rem;
+}
+
+#board{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid{
+    background-color: red;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CAF4FF;
+    cursor: pointer;
+}
+
+.symbol{
+    color: red;
+    font-family: 'Press Start 2P';
+    font-size: 5rem;
+}
+
+#reset{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    border: none;
+    height: 60px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #10439F;
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins';
+    cursor: pointer;
+}
